@@ -21,6 +21,14 @@
     - [3.2.2. What Emerged](#322-what-emerged)
     - [3.2.3. Why it matters](#323-why-it-matters)
   - [3.3. Theme 3: Building the Missing Infrastructure](#33-theme-3-building-the-missing-infrastructure)
+    - [3.3.1. The Situation](#331-the-situation)
+    - [3.3.2. What Emerged](#332-what-emerged)
+    - [3.3.3. Why it matters](#333-why-it-matters)
+- [4. Knowledge Gaps and Open Questions](#4-knowledge-gaps-and-open-questions)
+- [5. Key Insights and Takeaways](#5-key-insights-and-takeaways)
+- [6. Opportunities and Next Steps](#6-opportunities-and-next-steps)
+- [7. Disclosure on the use of Generative AI](#7-disclosure-on-the-use-of-generative-ai)
+- [8. Annex](#8-annex)
 
 ## 1. Executive Snapshot
 
@@ -111,3 +119,21 @@ Rather than positioning simulation as a disruptive replacement for physical do
 By targeting applications where simulation complements rather than replaces existing practices, the field can build an evidence base and gain regulatory comfort incrementally rather than demanding immediate wholesale change.
 
 ### 3.3. Theme 3: Building the Missing Infrastructure
+
+#### 3.3.1. The Situation
+
+#### 3.3.2. What Emerged
+
+#### 3.3.3. Why it matters
+
+## 4. Knowledge Gaps and Open Questions
+
+## 5. Key Insights and Takeaways
+
+## 6. Opportunities and Next Steps
+
+## 7. Disclosure on the use of Generative AI
+
+Generative AI was used to structure and refine this report, drawing exclusively from participant notes and materials. All substantive content has been verified by the authors, who assume full accountability for the accuracy and integrity of what appears in this document.
+
+## 8. Annex
