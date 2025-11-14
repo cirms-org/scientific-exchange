@@ -122,6 +122,8 @@ By complementing rather than replacing existing practices, the field can build 
 
 #### 3.3.1. The Situation
 
+Even participants enthusiastic about modeling acknowledged that key infrastructure components — reference materials, standardized test cases, and institutional mechanisms — exist but remain fragmented.
+
 #### 3.3.2. What Emerged
 
 #### 3.3.3. Why it matters
