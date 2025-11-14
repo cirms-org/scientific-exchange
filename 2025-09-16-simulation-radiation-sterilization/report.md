@@ -15,16 +15,20 @@
   - [3.1. Theme 1: Establishing Trust Through Rigorous Validation](#31-theme-1-establishing-trust-through-rigorous-validation)
     - [3.1.1. The Situation](#311-the-situation)
     - [3.1.2. What Emerged](#312-what-emerged)
-    - [3.1.3. Why it matters](#313-why-it-matters)
+    - [3.1.3. Why It Matters](#313-why-it-matters)
   - [3.2. Theme 2: High-Value Applications to Demonstrate Worth](#32-theme-2-high-value-applications-to-demonstrate-worth)
     - [3.2.1. The Situation](#321-the-situation)
     - [3.2.2. What Emerged](#322-what-emerged)
-    - [3.2.3. Why it matters](#323-why-it-matters)
+    - [3.2.3. Why It Matters](#323-why-it-matters)
   - [3.3. Theme 3: Building the Missing Infrastructure](#33-theme-3-building-the-missing-infrastructure)
     - [3.3.1. The Situation](#331-the-situation)
     - [3.3.2. What Emerged](#332-what-emerged)
-    - [3.3.3. Why it matters](#333-why-it-matters)
+    - [3.3.3. Why It Matters](#333-why-it-matters)
 - [4. Knowledge Gaps and Open Questions](#4-knowledge-gaps-and-open-questions)
+  - [4.1. Gap 1: Acceptance criteria that balance accuracy with practicality](#41-gap-1-acceptance-criteria-that-balance-accuracy-with-practicality)
+    - [4.1.1. The Question](#411-the-question)
+    - [4.1.2. Why It Matters](#412-why-it-matters)
+    - [4.1.3. Actionable Direction](#413-actionable-direction)
 - [5. Key Insights and Takeaways](#5-key-insights-and-takeaways)
 - [6. Opportunities and Next Steps](#6-opportunities-and-next-steps)
 - [7. Disclosure on the use of Generative AI](#7-disclosure-on-the-use-of-generative-ai)
@@ -96,7 +100,7 @@ The sterilization community has access to mature simulation tools, yet they rema
 
 - **The credibility problem is as much cultural as technical.** Several participants noted that even when models perform well, regulators and industry practitioners remain skeptical because there are no agreed-upon standards for what constitutes adequate validation. We keep asking *"is the model good enough?"* without first agreeing on what *"good enough"* means in practice.
 
-#### 3.1.3. Why it matters
+#### 3.1.3. Why It Matters
 
 Without standardized validation, modeling cannot transition from research to practice. The identified risks — positioning uncertainty, parameter drift, measurement limitations, and operator proficiency — are universal in dosimetry, whether computational or physical. Simulation’s key advantage is enabling rapid sensitivity studies to quantify and mitigate these universal risks in ways that would be experimentally prohibitive.
 
@@ -114,7 +118,7 @@ Rather than positioning simulation as a disruptive replacement for physical do
 
 - **Parametric release represents the long-term vision.** Multiple participants described scenarios where validated models, combined with real-time monitoring of process parameters, could enable product release based on process control rather than routine dosimetry. X-ray sterilization was identified as a particularly promising starting point, given its tighter process control compared to gamma or electron beam.
 
-#### 3.2.3. Why it matters
+#### 3.2.3. Why It Matters
 
 By complementing rather than replacing existing practices, the field can build evidence incrementally of simulation’s accuracy and value relative to physical dosimetry. This gradual approach gains regulatory acceptance without requiring immediate wholesale change.
 
@@ -132,9 +136,27 @@ Even participants enthusiastic about modeling acknowledged that key infrastructu
 
 - **Practical implementation details matter.** Discussions revealed essential operational needs: guidance on CAD model fidelity, protocols for monitoring system parameters during irradiation, methods for characterizing uncertainty in real-world conditions, and separate roadmaps for electron beam versus X-ray applications due to their distinct modelling requirements.
 
-#### 3.3.3. Why it matters
+#### 3.3.3. Why It Matters
+
+Shared reference materials and quality assurance mechanisms transform isolated modeling efforts into systematic, comparable work, building the collective confidence and demonstrating operational readiness.
 
 ## 4. Knowledge Gaps and Open Questions
+
+The exchange succeeded in identifying what needs to happen next, but honest discussions also revealed where the community lacks fundamental knowledge or consensus. These gaps are not weaknesses in the roadmap; they are the research agenda that must be pursued in parallel with implementation efforts. Each represents a concrete question that, if answered, would accelerate adoption.
+
+### 4.1. Gap 1: Acceptance criteria that balance accuracy with practicality
+
+#### 4.1.1. The Question
+
+What quantitative agreement between model predictions and physical dosimetry constitutes validation, and does the answer depend on the application (strategic planning versus parametric release)?
+
+#### 4.1.2. Why It Matters
+
+The meeting identified “inconsistent quality metrics” as a major barrier. Radiation oncology, for example, converged on gamma analysis and dose-volume histogram metrics for clinical treatment planning. Sterilization has not established analogous criteria. If the threshold is too stringent (e.g., requiring 1% dose agreement everywhere), models may never qualify; if too lenient (e.g., accepting 10% differences in minimum dose regions), regulators may not accept them for safety-critical applications.
+
+#### 4.1.3. Actionable Direction
+
+Survey regulators, industry practitioners, and modeling experts to draft acceptance criteria for three specific use cases: (1) strategic dosimeter placement, (2) demonstrating product change equivalence, and (3) enabling parametric release. Make the criteria application-specific and risk-proportionate rather than seeking a single universal standard. Test these draft criteria against existing validation datasets to confirm they are both achievable with current modeling capabilities and adequate for regulatory confidence.
 
 ## 5. Key Insights and Takeaways
 
