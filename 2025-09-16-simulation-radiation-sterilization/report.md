@@ -98,7 +98,7 @@ The sterilization community has access to mature simulation tools, yet they rema
 
 #### 3.1.3. Why it matters
 
-Without standardized validation, modeling will remain a research tool. These risks mirror those in physical dosimetry: positioning uncertainty, parameter drift, measurement limitations, and dosimeter range. Simulation’s unique advantage is enabling rapid sensitivity studies that would be experimentally prohibitive. The added value of a sound modelling framework lies in leveraging this capability for quantifying and mitigating risks inherent to any dosimetry approach.
+Without standardized validation, modeling cannot transition from research to practice. The identified risks — positioning uncertainty, parameter drift, measurement limitations, and operator proficiency — are universal in dosimetry, whether computational or physical. Simulation’s key advantage is enabling rapid sensitivity studies to quantify and mitigate these universal risks in ways that would be experimentally prohibitive.
 
 ### 3.2. Theme 2: High-Value Applications to Demonstrate Worth
 
