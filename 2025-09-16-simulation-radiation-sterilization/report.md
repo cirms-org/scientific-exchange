@@ -116,7 +116,7 @@ Rather than positioning simulation as a disruptive replacement for physical do
 
 #### 3.2.3. Why it matters
 
-By targeting applications where simulation complements rather than replaces existing practices, the field can build an evidence base and gain regulatory comfort incrementally rather than demanding immediate wholesale change.
+By complementing rather than replacing existing practices, the field can build evidence incrementally of simulation’s accuracy and value relative to physical dosimetry. This gradual approach gains regulatory acceptance without requiring immediate wholesale change.
 
 ### 3.3. Theme 3: Building the Missing Infrastructure
 
