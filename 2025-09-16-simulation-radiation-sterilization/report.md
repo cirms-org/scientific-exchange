@@ -90,9 +90,9 @@ The sterilization community has access to mature simulation tools, yet they rema
 
   - *Degradation due to unmonitored system parameters:* Accuracy suffers if beam current, temperature, or other process variables drif, undetected. *Mitigation:* Conduct a sensitivity analysis on all critical, observable parameters, develop periodic recommendations for resetting the system or recalibrating the model input.
 
-  - *Fundamental accuracy limitations:* The model’s physics or parameterization may not capture all relevant phenomena reliably. *Mitigation:* Assemble a sufficient amount of ground truth data. This includes data collected from the actual process and, crucially, data derived from independently designed engineered phantoms that provide clear, unambiguous validation points.
+  - *Fundamental accuracy limitations:* The model’s physics or parameterization may not capture all relevant phenomena reliably. *Mitigation:* Assemble a sufficient amount of ground truth data. This includes data collected from the actual process and, crucially, data derived from independently engineered phantoms that provide clear, unambiguous validation points.
 
-  - *Users applying model to out-of-scope scenarios:* Extending predictions to doses, geometries, or materials outside validated conditions. Mitigation: Conduct a thorough investigation of the limits of the model, create clear guidelines on the model’s applicability.
+  - *Users applying model to out-of-scope scenarios:* Extending predictions to doses, geometries, or materials outside validated conditions. *Mitigation:* Conduct a thorough investigation of the limits of the model, publish clear guidelines on the model’s applicability.
 
 - **The credibility problem is as much cultural as technical.** Several participants noted that even when models perform well, regulators and industry practitioners remain skeptical because there are no agreed-upon standards for what constitutes adequate validation. We keep asking *"is the model good enough?"* without first agreeing on what *"good enough"* means in practice.
 
