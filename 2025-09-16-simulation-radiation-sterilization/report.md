@@ -126,6 +126,12 @@ Even participants enthusiastic about modeling acknowledged that key infrastructu
 
 #### 3.3.2. What Emerged
 
+- **Reference phantoms and benchmark problems came up repeatedly.** The radiation oncology community pointed to standardized phantoms, such as those from IROC Houston, that are used to verify treatment planning systems. Sterilization requires analogous tools: well-characterized geometries with known dose distributions that serve as common validation targets. Participants suggested organizing round-robin studies where multiple groups model the same reference case and compare results.
+
+- **A credentialing or proficiency framework was deemed as essential.** Participants envisioned an independent body, such as an academic institution or government lab like NIST, to assess whether modeling groups meet minimum competency standards. This would parallel radiation therapy’s requirements for medical physicist certification and regular quality audits.
+
+- **Practical implementation details matter.** Discussions revealed essential operational needs: guidance on CAD model fidelity, protocols for monitoring system parameters during irradiation, methods for characterizing uncertainty in real-world conditions, and separate roadmaps for electron beam versus X-ray applications due to their distinct modelling requirements.
+
 #### 3.3.3. Why it matters
 
 ## 4. Knowledge Gaps and Open Questions
